@@ -1,33 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
 <table style="width:100%">
-    <font size="5">  
-    
   <tr>
-    <th>ABBR</th>
-    <th>NAME</th>    
-    <th>PHONE</th>
-    </tr>
-  <tr>
-    <td>FB</td>
-    <td><a href="mailto:francisco.baldizon@ontario.ca">Francisco Baldizon</a></td>
-    <td><a href="tel:+4733378901">647 642 6739</a></td>
-    </tr>
-  <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+    <th>SAT</th>
+    <th>SUN</th>
   </tr>
   <tr>
     <td> </td>
     <td> </td>
     <td> </td>
-    
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
   <tr>
     <td> </td>
     <td> </td>
     <td> </td>
-    
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
-  </font>  
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
 </table>
+
+</body>
+</html>
+
+
