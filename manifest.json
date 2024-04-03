@@ -3,7 +3,7 @@
   "short_name": "DW Webmap",
   "icons": [
     {
-      "src": "/path/to/icon.png",
+      "src": "https://raw.githubusercontent.com/sean-roelofsen/YDHPTO-Region-Geojsons/main/water_glass_192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
